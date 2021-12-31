@@ -1,3 +1,12 @@
-import * as PJS from "https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"
+let bg;
+let y = 0;
+function setup()
+{
+    bg = loadImage("https://godatadriven.com/wp-content/images/risk-analysis/risk-board.png");
+    createCanvas(1200,614);
+}
 
-PJS.ellipse(30,30,10,10);
+function draw()
+{
+    background(bg);
+}
