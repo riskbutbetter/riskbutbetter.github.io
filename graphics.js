@@ -1,1 +1,4 @@
-ellipse(5,5,10,10);
+function display()
+{
+    alert("JS embed test?");
+}
